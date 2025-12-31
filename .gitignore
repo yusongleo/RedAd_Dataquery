@@ -1,0 +1,25 @@
+# --- Python 基础忽略 ---
+__pycache__/
+*.py[cod]
+*.spec
+
+# --- 虚拟环境 (不要上传几百兆的库文件) ---
+.venv/
+venv/
+ENV/
+
+# --- PyCharm 配置 (个人配置无需上传) ---
+.idea/
+
+# --- 打包生成的文件 (EXE 不传代码库，去 Release 发布) ---
+build/
+dist/
+
+# --- ⚠️ 敏感配置文件 (绝对不能上传!!!) ---
+feishu_config.json
+app_config.json
+token_config.json
+auth_url.json
+
+# --- 数据下载目录 (用户数据不上传) ---
+data_download/
