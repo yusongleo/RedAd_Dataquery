@@ -1,0 +1,7 @@
+{
+    "app_id": "此处填写你的飞书应用的app id",
+    "app_secret": "此处填写你的飞书应用的app secret",
+    "default_app_token": "此处填写您的多维表格Base_ID",
+    "account_mapping": {
+						} 
+}
