@@ -1,9 +1,6 @@
 # 1. 用户指定的敏感配置文件和数据
 # 包含 Feishu 配置、Token 和授权信息
-token_config.json
-feishu_config.json
-auth_url.json
-app_config.json
+
 
 # 2. 排除数据下载文件夹内的所有文件
 data_download/
