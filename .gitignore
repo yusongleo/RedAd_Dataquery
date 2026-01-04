@@ -1,0 +1,24 @@
+# 1. 用户指定的敏感配置文件和数据
+# 包含 Feishu 配置、Token 和授权信息
+token_config.json
+feishu_config.json
+auth_url.json
+app_config.json
+
+# 2. 排除数据下载文件夹内的所有文件
+data_download/
+
+# 3. Python 虚拟环境与 IDE 配置
+.venv/
+.idea/
+
+# 4. 构建与打包生成的临时文件
+build/
+dist/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 5. 其他常见的 Python 忽略项
+*.spec
+.env
